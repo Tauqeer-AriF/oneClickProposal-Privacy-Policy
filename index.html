@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy – OneClickProposal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 860px;
+      margin: 40px auto;
+      padding: 0 24px;
+      color: #333;
+      line-height: 1.8;
+    }
+    h1 { color: #1a1a2e; font-size: 28px; }
+    h2 { color: #16213e; font-size: 20px; margin-top: 36px; border-bottom: 2px solid #eee; padding-bottom: 6px; }
+    p, li { font-size: 15px; }
+    ul { padding-left: 20px; }
+    .last-updated { color: #888; font-size: 14px; margin-bottom: 32px; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+    th, td { border: 1px solid #ddd; padding: 10px 14px; text-align: left; font-size: 14px; }
+    th { background: #f4f4f4; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+  <h1>Privacy Policy</h1>
+  <p class="last-updated">Last Updated: March 15, 2026</p>
+
+  <h2>1. Introduction</h2>
+  <p>
+    OneClickProposal ("we", "our", "the Extension") is a Chrome browser extension that helps
+    freelancers generate AI-powered job proposals on platforms such as Upwork, Fiverr,
+    LinkedIn, and PeoplePerHour. We are committed to protecting your privacy and being
+    fully transparent about how your data is handled. This Privacy Policy explains what data
+    we collect, how we use it, how we store it, and your rights regarding your information.
+  </p>
+
+  <h2>2. Data We Collect</h2>
+  <p>We collect only the minimum data necessary for the extension to function:</p>
+  <table>
+    <tr>
+      <th>Data Type</th>
+      <th>What It Is</th>
+      <th>Where It Is Stored</th>
+    </tr>
+    <tr>
+      <td>Groq API Key</td>
+      <td>Your personal API key entered in the extension settings</td>
+      <td>Locally on your device via Chrome Storage only</td>
+    </tr>
+    <tr>
+      <td>Daily Usage Count</td>
+      <td>Number of proposals generated today (for free tier enforcement)</td>
+      <td>Locally on your device via Chrome Storage only</td>
+    </tr>
+    <tr>
+      <td>Job Description Text</td>
+      <td>Text extracted from the job posting page when you click Generate</td>
+      <td>Sent directly to Groq API — never stored by us</td>
+    </tr>
+  </table>
+
+  <h2>3. Data We Do NOT Collect</h2>
+  <ul>
+    <li>Your name, email address, or any personal identity information</li>
+    <li>Your browsing history or activity outside job platforms</li>
+    <li>Payment or financial information</li>
+    <li>Device information or IP addresses</li>
+    <li>Any data in the background — all actions are user-initiated only</li>
+  </ul>
+
+  <h2>4. How We Use Your Data</h2>
+  <ul>
+    <li><strong>Groq API Key:</strong> Stored locally and used solely to authenticate your requests to the Groq API when generating proposals. It is never sent to our servers.</li>
+    <li><strong>Daily Usage Count:</strong> Stored locally to track how many proposals you have generated today, enforcing the free tier limit of 3 proposals per day.</li>
+    <li><strong>Job Description Text:</strong> Sent directly from your browser to the Groq API (api.groq.com) to generate a proposal. We do not intercept, log, or store this content.</li>
+  </ul>
+
+  <h2>5. Data Storage</h2>
+  <p>
+    All data stored by this extension is saved <strong>locally on your own device</strong>
+    using the Chrome Storage API. We do not operate any servers, databases, or cloud
+    infrastructure that stores your data. Uninstalling the extension removes all locally
+    stored data from your device.
+  </p>
+
+  <h2>6. Data Sharing & Third Parties</h2>
+  <p>We do not sell, rent, trade, or share your data with any third parties, with one exception:</p>
+  <ul>
+    <li>
+      <strong>Groq API (api.groq.com):</strong> When you click "Generate Proposal", the job
+      description text is transmitted directly to the Groq API using your own API key.
+      This transmission is necessary to generate the proposal. Please review
+      <a href="https://groq.com/privacy" target="_blank">Groq's Privacy Policy</a> to
+      understand how they handle this data.
+    </li>
+  </ul>
+  <p>We have no affiliation with Groq, Upwork, Fiverr, LinkedIn, or PeoplePerHour.</p>
+
+  <h2>7. Permissions Used & Why</h2>
+  <table>
+    <tr>
+      <th>Permission</th>
+      <th>Why It Is Needed</th>
+    </tr>
+    <tr>
+      <td>storage</td>
+      <td>To save your Groq API key and daily proposal count locally on your device</td>
+    </tr>
+    <tr>
+      <td>host_permissions (upwork.com, fiverr.com, linkedin.com, peopleperhour.com)</td>
+      <td>To inject the Generate Proposal button and read job descriptions on these platforms only</td>
+    </tr>
+  </table>
+
+  <h2>8. Data Retention</h2>
+  <p>
+    Data stored locally (API key and usage count) remains on your device until you either
+    clear it manually in the extension settings or uninstall the extension. We do not retain
+    any data on external servers because we do not collect any.
+  </p>
+
+  <h2>9. User Rights</h2>
+  <p>You have full control over your data at all times:</p>
+  <ul>
+    <li><strong>Access:</strong> You can view your stored API key in the extension settings at any time.</li>
+    <li><strong>Delete:</strong> You can clear your API key and usage data from the extension settings, or simply uninstall the extension.</li>
+    <li><strong>Correction:</strong> You can update your API key at any time in the extension settings.</li>
+    <li><strong>Portability:</strong> Your data is stored locally — you always have direct access to it.</li>
+  </ul>
+
+  <h2>10. Children's Privacy</h2>
+  <p>
+    OneClickProposal is not intended for children under the age of 13. We do not knowingly
+    collect any data from children. If you believe a child has used this extension, please
+    contact us and we will take appropriate action.
+  </p>
+
+  <h2>11. Security</h2>
+  <p>
+    Your Groq API key is stored locally using Chrome's built-in secure storage API and is
+    never transmitted to any server other than Groq's official API endpoint. We strongly
+    recommend that you do not share your API key with anyone and that you revoke it at
+    console.groq.com if you believe it has been compromised.
+  </p>
+
+  <h2>12. Changes to This Policy</h2>
+  <p>
+    We may update this Privacy Policy from time to time. When we do, we will update the
+    "Last Updated" date at the top of this page. We encourage you to review this policy
+    periodically. Continued use of the extension after any changes constitutes your
+    acceptance of the updated policy.
+  </p>
+
+  <h2>13. Contact Us</h2>
+  <p>
+    If you have any questions, concerns, or requests regarding this Privacy Policy or your
+    data, please contact us at:
+  </p>
+  <ul>
+    <li><strong>Email:</strong> [your email address]</li>
+    <li><strong>Extension Name:</strong> OneClickProposal</li>
+    <li><strong>Chrome Web Store ID:</strong> ffkjcbfjngmmphenblfokigbaoohceod</li>
+  </ul>
+
+</body>
+</html>
